@@ -1,0 +1,10 @@
+.form-contac {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+}
+h1.text-danger.mb-5.custom {
+    font-size: 30px;
+    text-align: center;
+}

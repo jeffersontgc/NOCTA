@@ -1,0 +1,120 @@
+.container-item {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    justify-content: center;
+    margin-top: 4em;
+    column-gap: 10em;
+}
+
+.content-shows {
+    width: auto;
+    height: auto;
+    background: #fff;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.cc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    row-gap: 1em;
+    justify-content: center;
+}
+
+h1.text-danger.mb-5.asgh {
+    font-size: 35px;
+}
+
+h1.text-danger.mb-5.view {
+    font-size: 35px;
+
+}
+h1.text-danger.mb-5.updateTitle {
+    font-size: 35px;
+}
+
+h2.text-light.mb-2.textClub {
+    font-size: 20px;
+}
+
+h2.text-light.mb-0.asfe {
+    font-size: 20px;
+}
+
+.name_club {
+    display: flex;
+    align-items: center;
+}
+h4.text-danger.mb-0.pr-2 {
+    padding-left: 17px;
+    font-size: 25px;
+}
+
+.container-form {
+    background: #fff;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+.container-form_detail {
+    background: #fff;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+.clubs {
+    background: linear-gradient(185deg, black, #212529);
+    border-radius: 11px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+}
+.click {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: none;
+}
+.events_clicks_delete {
+    background: red;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+    width: auto;
+}
+.events_clicks_details {
+    background: green;
+    border-radius: 3px;
+    text-align: center;
+    width: auto;
+    padding: 5px;
+}
+.eventsClicks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   column-gap: 1em;
+}
+.events_clicks_details a {
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.events_clicks_details a:hover {
+    color: #fff;
+}
+
+.events_clicks_delete a {
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.events_clicks_delete a:hover {
+    color: #fff;
+}

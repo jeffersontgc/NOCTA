@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1.text-warning.mt-4 {
+    font-family: monospace;
+}
+.logo_title {
+    padding: 5px;
+}
+h1.text-danger.text-center.mt-4.customstyle {
+    position: relative;
+    font-family: monospace;
+}
+h1.text-danger.text-center.mt-4.customstyle::after {
+    content: "";
+    background: #ffc107;
+    height: 3px;
+    display: flex;
+    width: 12%;
+    margin: 5px auto;
+}
+
+.logo_custom{
+    width: 10%;
+}
+
+h1.text-danger.font {
+    font-size: 30px;
+}
+a.text-warning.text-decoration-none.asty {
+    font-size: 19px;
+    padding-left: 1em;
+}
+a.text-warning.text-decoration-none.asty2 {
+    font-size: 20px;
+    padding-left: 1em;
+}
